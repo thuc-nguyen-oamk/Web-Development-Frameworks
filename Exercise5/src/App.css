@@ -1,0 +1,190 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.fa-star, .fa-star-half {
+  color: #FFA41C;
+}
+
+.fa-angle-down {
+  color: #9A9A9A;
+}
+
+.fa-trash {
+  color: #CC0000;
+  cursor: pointer;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 2em;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+h1 > span {
+  color: lightgreen;
+  margin-left: 25px;
+  border-radius: 50%;
+  border: 1px solid lightgreen;
+  padding: 10px;
+  cursor: pointer;
+}
+
+h1 > span:hover {
+  filter: brightness(85%);
+  content: 'Add New Product';
+}
+
+table {
+  font-family: sans-serif;
+}
+
+table th, table td {
+  padding: 0.25em 0.5em;
+  text-align: left;
+}
+
+table th:nth-child(2), table td:nth-child(2) {
+  text-align: right;
+}
+
+table td {
+  background-color: #eee;
+}
+
+table td div {
+  max-height: 100px;
+  overflow: auto;
+}
+
+table td div img {
+  max-width: 100px;
+  height: auto;
+  overflow: auto;
+}
+
+table th {
+  background-color: #009;
+  color: #fff;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background: #eee;
+  width: 50%;
+  margin: auto;
+  left: 25%;
+}
+
+.modal-content h2 {
+  margin-top: 10px;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 35px;
+  font-weight: bold;
+  right: 20px;
+  position: relative;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button {
+  background: radial-gradient(ellipse farthest-corner at left top, #f35464 30%, #841F4B 100%);
+  height: 50px;
+  border-radius: 10px;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  transition: box-shadow 500ms ease;
+  font-size: 1.5em;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+.button:hover {
+  box-shadow: 0 7px 30px #f35464;
+  transition: box-shadow 500ms ease;
+}
+button {
+  cursor: pointer;
+}
+
+.preview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.preview select {
+  width: fit-content;
+  margin-right: 10px;
+}
+
+.preview img {
+  max-height: 150px;
+  max-width: 100px;
+}

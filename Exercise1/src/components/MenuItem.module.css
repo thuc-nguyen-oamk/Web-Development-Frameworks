@@ -1,0 +1,24 @@
+.menuItem {
+    margin-left: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.menuItem:hover {
+    cursor: pointer;
+}
+
+.menuItem:first-child {
+    margin-left: 0;
+}
+
+.img {
+    height: 1em;
+    margin-top: 5px;
+    margin-left: 3px;
+}
+
+.active {
+    border-bottom: 3px solid #00194C;
+    font-weight: bold;
+}

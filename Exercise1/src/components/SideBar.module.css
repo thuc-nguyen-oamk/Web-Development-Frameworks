@@ -1,0 +1,43 @@
+.sideBar {
+    padding: 10px;
+    background-color: white;
+    width: 30%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 100%;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 1.5em;
+    border-bottom: 1px solid black;
+}
+
+.body {
+    display: flex;
+    flex-direction: vertical;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.number {
+    color: #4196A4;
+    font-weight: 900;
+    font-size: 2em;
+    padding-top: 15px;
+    font-family: initial;
+    width: 15%;
+    text-align: center;
+}
+
+.news {
+    width: 85%;
+}
+
+.flex {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}

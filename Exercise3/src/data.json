@@ -1,0 +1,123 @@
+{
+    "products": [
+        {
+            "id": "1",
+            "isBestSeller": false,
+            "image": "product01.jpg",
+            "name": "Roku Express 4K+ 2021 | Streaming Media Player HD/4K/HDR with Smooth Wireless Streaming and Roku Voice Remote with TV Controls, Includes Premium HDMI Cable",
+            "rating": "4.5",
+            "voter": "5894",
+            "price": "2999",
+            "price0": "3999",
+            "shipDate": "Wed, Sep 29",
+            "shipFee": "3370",
+            "cert": "Works with Alexa"
+        },
+        {
+            "id": "2",
+            "isBestSeller": true,
+            "image": "product02.jpg",
+            "name": "Seagate Portable 2TB External Hard Drive Portable HDD – USB 3.0 for PC, Mac, PS4, & Xbox - 1-Year Rescue Service (STGX2000400)",
+            "rating": "4.5",
+            "voter": "153913",
+            "price": "5999",
+            "price0": "6299",
+            "shipDate": "Wed, Sep 29",
+            "shipFee": "3358",
+            "morePricesLowest": "47.94",
+            "morePricesCount": "8"
+        },
+        {
+            "id": "3",
+            "isBestSeller": false,
+            "image": "product03.jpg",
+            "name": "Roku Streaming Stick+ | HD/4K/HDR Streaming Device with Long-range Wireless and Roku Voice Remote with TV Controls",
+            "rating": "4.5",
+            "voter": "96638",
+            "price": "3999",
+            "price0": "4999",
+            "shipDate": "Wed, Sep 29",
+            "shipFee": "3328",
+            "morePricesLowest": "35.99",
+            "morePricesCount": "45",
+            "cert": "Works with Alexa"
+        },
+        {
+            "id": "4",
+            "isBestSeller": true,
+            "image": "product04.jpg",
+            "name": "Sceptre E248W-19203R 24\" Ultra Thin 75Hz 1080p LED Monitor 2x HDMI VGA Build-in Speakers, Metallic Black 2018",
+            "rating": "4.5",
+            "voter": "14928",
+            "price": "15497",
+            "price0": "15497",
+            "shipDate": "Wed, Sep 29",
+            "shipFee": "9099",
+            "morePricesLowest": "114",
+            "morePricesCount": "12"
+        },
+        {
+            "id": "5",
+            "isBestSeller": true,
+            "image": "product05.jpg",
+            "name": "Logitech H390 Wired Headset, Stereo Headphones with Noise-Cancelling Microphone, USB, In-Line Controls, PC/Mac/Laptop - Black",
+            "rating": "4.5",
+            "voter": "29819"
+        },
+        {
+            "id": "6",
+            "isBestSeller": true,
+            "image": "product06.jpg",
+            "name": "iPhone Charger [Apple MFi Certified] QIRUOZ 5Pack(3/3/6/6/10FT) Compatible iPhone 12Pro Max/12Pro/12/11/Pro/Xs Max/X/8 and More-Silver&White",
+            "rating": "4.5",
+            "voter": "11488",
+            "price": "1299",
+            "price0": "1299",
+            "shipDate": "Wed, Sep 29",
+            "shipFee": "3211"
+        },
+        {
+            "id": "7",
+            "isBestSeller": false,
+            "image": "product07.jpg",
+            "name": "WD 2TB Elements Portable External Hard Drive HDD, USB 3.0, Compatible with PC, Mac, PS4 & Xbox - WDBU6Y0020BBK-WESN",
+            "rating": "4.5",
+            "voter": "90055",
+            "price": "5999",
+            "price0": "5999",
+            "shipDate": "Wed, Sep 29",
+            "shipFee": "3299",
+            "morePricesLowest": "47.95",
+            "morePricesCount": "26"
+        },
+        {
+            "id": "8",
+            "isBestSeller": true,
+            "image": "product08.jpg",
+            "name": "SanDisk 128GB Extreme microSDXC UHS-I Memory Card with Adapter - Up to 160MB/s, C10, U3, V30, 4K, A2, Micro SD - SDSQXA1-128G-GN6MA",
+            "rating": "5",
+            "voter": "237931",
+            "price": "2199",
+            "price0": "2199",
+            "shipDate": "Wed, Sep 29",
+            "shipFee": "3077",
+            "morePricesLowest": "20.23",
+            "morePricesCount": "27"
+        },
+        {
+            "id": "9",
+            "isBestSeller": false,
+            "image": "product09.jpg",
+            "name": "Roku Express | HD Streaming Media Player with High Speed HDMI Cable and Simple Remote",
+            "rating": "5",
+            "voter": "128210",
+            "price": "2999",
+            "price0": "2999",
+            "shipDate": "Wed, Sep 29",
+            "shipFee": "4288",
+            "morePricesLowest": "19.96",
+            "morePricesCount": "30",
+            "cert": "Works with Alexa"
+        }
+    ]
+}

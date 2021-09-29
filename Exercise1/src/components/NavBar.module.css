@@ -1,0 +1,13 @@
+.navBar {
+    display: flex;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container {
+    border-bottom: 1px solid #ccc;
+    background-color: white;
+}
