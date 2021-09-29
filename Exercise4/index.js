@@ -217,12 +217,14 @@ app.get('/invoices/:id', (req, res) => {
 
 app.post('/invoices', (req, res) => {
   if (!req.body || Object.keys(req.body).length == 0) {
-    res.sendStatus(400);
     return
   };
   
   const { userId, boughtProducts } = req.body;
-  if (!users.find( user => user.id === userId )) res.send('Error! All id(s) must be valid.');
+  if (!users.find( user => user.id === userId )) {
+    res.send('Error! All id(s) must be valid.');
+    return
+  };
   
   const id = uuidv4();
   let totalSum = 0;
