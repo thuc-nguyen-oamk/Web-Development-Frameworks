@@ -44,6 +44,8 @@ Exercise2/node_modules/
 Exercise3/node_modules/
 Exercise4/node_modules/
 Exercise5/node_modules/
+Exercise5/API/node_modules/
+Exercise5/Client/node_modules/
 jspm_packages/
 
 # TypeScript v1 declaration files
